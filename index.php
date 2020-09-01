@@ -622,9 +622,7 @@ else if ($text == "2") {
     $response = "END You have Succesfilly Registered\n";
 }
 else if($text == "3"){
-    $response = "END Contact us through; \n";
-    $response = "Tel. No.:  0249551119 \n";
-    $response = "Website: www.kiteko.com \n";
+    $response = "END Contact us through \n Website: www.kiteko.com \n";
 }
 
 //echo response

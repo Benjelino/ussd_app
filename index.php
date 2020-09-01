@@ -52,7 +52,7 @@ else if ($text == "1*1*1*1") {
 // Menu for a user who selects "2" from the second menu above
 // Will be brought to this fourth menu screen
 
-else if ($text == "1*2") {
+else if ($text == "1*1*2") {
     $response = "CON You want to transport Cocoa from Enchi to Takoradi for 12.3 per bag.\n";
     $response .= "Confirm your order. \n";
     $response .= "1. Yes \n";
@@ -60,7 +60,7 @@ else if ($text == "1*2") {
 }
 // Menu for a user who selects "1" from the fourth menu screen
 
-else if ($text == "1*2*1") {
+else if ($text == "1*1*2*1") {
     $response = "END Truck order successful. You will receive a call from our representative in no time.";
 }else if ($text == "1*2*0") {
     $response = "END Your Truck order has been canceled";
@@ -68,7 +68,7 @@ else if ($text == "1*2*1") {
 // Menu for a user who enters "3" from the second menu above
 // Will be brought to this fifth menu screen
 
-else if ($text == "1*3") {
+else if ($text == "1*1*3") {
     $response = "CON You want to transport Cocoa from New Edubiase to Tema for 14.13 per bag.\n";
     $response .= "Confirm your order. \n";
     $response .= "1. Yes \n";
@@ -76,7 +76,7 @@ else if ($text == "1*3") {
 }
 // Menu for a user who enters "1" from the fifth menu
 
-else if ($text == "1*3*1") {
+else if ($text == "1*1*3*1") {
     $response = "END Truck order successful. You will receive a call from our representative in no time.";
 }else if ($text == "1*3*0") {
     $response = "END Your Truck order has been canceled";
@@ -84,7 +84,7 @@ else if ($text == "1*3*1") {
 // Menu for a user who enters "4" from the second menu above
 // Will be brought to this sixth menu screen
 
-else if ($text == "1*4") {
+else if ($text == "1*1*4") {
     $response = "CON You want to transport Cocoa from Asawinso to Kaase for 11.75 per bag.\n";
     $response .= "Confirm your order. \n";
     $response .= "1. Yes \n";
@@ -93,7 +93,7 @@ else if ($text == "1*4") {
     
 // Menu for a user who enters "1" from the sixth menu
 
-else if ($text == "1*4*1") {
+else if ($text == "1*1*4*1") {
     $response = "END Truck order successful. You will receive a call from our representative in no time.";
 }else if ($text == "1*4*0") {
     $response = "END Your Truck order has been canceled";
@@ -101,7 +101,7 @@ else if ($text == "1*4*1") {
 
 // Menu for a user who enters "5" from the second menu above
 // Will be brought to this sixth menu screen
-else if ($text == "1*5") {
+else if ($text == "1*1*5") {
     $response = "CON You want to transport Cocoa from Elluokrom to Kaase for 11.34 per bag.\n";
     $response .= "Confirm your order. \n";
     $response .= "1. Yes \n";
@@ -110,7 +110,7 @@ else if ($text == "1*5") {
 
 // Menu for a user who selects "1" from the seventh menu screen
 
-else if ($text == "1*5*1") {
+else if ($text == "1*1*5*1") {
     $response = "END Truck order successful. You will receive a call from our representative in no time.";
 }else if ($text == "1*5*0") {
     $response = "END Your Truck order has been canceled";
@@ -118,7 +118,7 @@ else if ($text == "1*5*1") {
 
 // Menu for a user who enters "6" from the second menu above
 // Will be brought to this sixth menu screen
-else if ($text == "1*6") {
+else if ($text == "1*1*6") {
     $response = "CON You want to transport Cocoa from Debiso to Kaase for 13.06 per bag.\n";
     $response .= "Confirm your order. \n";
     $response .= "1. Yes \n";
@@ -127,7 +127,7 @@ else if ($text == "1*6") {
 
 // Menu for a user who selects "1" from the seventh menu screen
 
-else if ($text == "1*6*1") {
+else if ($text == "1*1*6*1") {
     $response = "END Truck order successful. You will receive a call from our representative in no time.";
 }else if ($text == "1*6*0") {
     $response = "END Your Truck order has been canceled";
@@ -135,7 +135,7 @@ else if ($text == "1*6*1") {
 
 // Menu for a user who enters "7" from the second menu above
 // Will be brought to this sixth menu screen
-else if ($text == "1*7") {
+else if ($text == "1*1*7") {
     $response = "CON You want to transport Cocoa from Debiso to Kaase for 13.06 per bag.\n";
     $response .= "Confirm your order. \n";
     $response .= "1. Yes \n";
@@ -144,7 +144,7 @@ else if ($text == "1*7") {
 
 // Menu for a user who selects "1" from the seventh menu screen
 
-else if ($text == "1*7*1") {
+else if ($text == "1*1*7*1") {
     $response = "END Truck order successful. You will receive a call from our representative in no time.";
 }else if ($text == "1*7*0") {
     $response = "END Your Truck order has been canceled";

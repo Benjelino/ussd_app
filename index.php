@@ -62,7 +62,7 @@ else if ($text == "1*1*2") {
 
 else if ($text == "1*1*2*1") {
     $response = "END Truck order successful. You will receive a call from our representative in no time.";
-}else if ($text == "1*2*0") {
+}else if ($text == "1*1*2*0") {
     $response = "END Your Truck order has been canceled";
 }
 // Menu for a user who enters "3" from the second menu above
@@ -78,7 +78,7 @@ else if ($text == "1*1*3") {
 
 else if ($text == "1*1*3*1") {
     $response = "END Truck order successful. You will receive a call from our representative in no time.";
-}else if ($text == "1*3*0") {
+}else if ($text == "1*1*3*0") {
     $response = "END Your Truck order has been canceled";
 }
 // Menu for a user who enters "4" from the second menu above
@@ -95,7 +95,7 @@ else if ($text == "1*1*4") {
 
 else if ($text == "1*1*4*1") {
     $response = "END Truck order successful. You will receive a call from our representative in no time.";
-}else if ($text == "1*4*0") {
+}else if ($text == "1*1*4*0") {
     $response = "END Your Truck order has been canceled";
 }
 
@@ -112,7 +112,7 @@ else if ($text == "1*1*5") {
 
 else if ($text == "1*1*5*1") {
     $response = "END Truck order successful. You will receive a call from our representative in no time.";
-}else if ($text == "1*5*0") {
+}else if ($text == "1*1*5*0") {
     $response = "END Your Truck order has been canceled";
 }
 
@@ -129,7 +129,7 @@ else if ($text == "1*1*6") {
 
 else if ($text == "1*1*6*1") {
     $response = "END Truck order successful. You will receive a call from our representative in no time.";
-}else if ($text == "1*6*0") {
+}else if ($text == "1*1*6*0") {
     $response = "END Your Truck order has been canceled";
 }
 
@@ -146,9 +146,119 @@ else if ($text == "1*1*7") {
 
 else if ($text == "1*1*7*1") {
     $response = "END Truck order successful. You will receive a call from our representative in no time.";
-}else if ($text == "1*7*0") {
+}else if ($text == "1*1*7*0") {
     $response = "END Your Truck order has been canceled";
 }
+
+
+
+// When the user selects Cashew
+
+else if ($text == "1*2") {
+    $response = "CON Choose the route and rate per per ton \n";
+    $response .= "1. Techiman to Tema - Gh¢140 \n";
+    $response .= "2. Wenchi to Tema - Gh¢150 \n";
+    $response .= "3. Sampa to Tema - Gh¢185 \n";
+    $response .= "4. Nkrankwanta to Tema - Gh¢175 \n";
+    $response .= "5. Banda to Tema - Gh¢185 \n";
+    $response .= "6. Japekrom to Tema - Gh¢175 \n";
+}
+else if ($text == "1*2*1") {
+    $response = "CON You want to transport Cocoa from Techiman to Tema for Gh¢140 per bag.\n";
+    $response .= "Confirm your order. \n";
+    $response .= "1. Yes \n";
+    $response .= "0. To Cancel \n";
+}
+else if ($text == "1*2*1*1") {
+    $response = "END Truck order successful. You will receive a call from our representative in no time.";
+}else if ($text == "1*2*1*0") {
+    $response = "END Your Truck order has been canceled";
+}
+// Menu for a user who selects "2" from the second menu above
+// Will be brought to this fourth menu screen
+
+else if ($text == "1*2*2") {
+    $response = "CON You want to transport Cocoa from Wenchi to Tema for Gh¢150 per bag.\n";
+    $response .= "Confirm your order. \n";
+    $response .= "1. Yes \n";
+    $response .= "0. To Cancel \n";
+}
+// Menu for a user who selects "1" from the fourth menu screen
+
+else if ($text == "1*2*2*1") {
+    $response = "END Truck order successful. You will receive a call from our representative in no time.";
+}else if ($text == "1*2*2*0") {
+    $response = "END Your Truck order has been canceled";
+}
+// Menu for a user who enters "3" from the second menu above
+// Will be brought to this fifth menu screen
+
+else if ($text == "1*2*3") {
+    $response = "CON You want to transport Cocoa from Sampa to Tema for Gh¢185 per bag.\n";
+    $response .= "Confirm your order. \n";
+    $response .= "1. Yes \n";
+    $response .= "0. To Cancel \n";
+}
+// Menu for a user who enters "1" from the fifth menu
+
+else if ($text == "1*2*3*1") {
+    $response = "END Truck order successful. You will receive a call from our representative in no time.";
+}else if ($text == "1*2*3*0") {
+    $response = "END Your Truck order has been canceled";
+}
+// Menu for a user who enters "4" from the second menu above
+// Will be brought to this sixth menu screen
+
+else if ($text == "1*2*4") {
+    $response = "CON You want to transport Cocoa from Nkrankwanta to Tema for Gh¢175 per bag.\n";
+    $response .= "Confirm your order. \n";
+    $response .= "1. Yes \n";
+    $response .= "0. To Cancel \n";
+}
+    
+// Menu for a user who enters "1" from the sixth menu
+
+else if ($text == "1*2*4*1") {
+    $response = "END Truck order successful. You will receive a call from our representative in no time.";
+}else if ($text == "1*2*4*0") {
+    $response = "END Your Truck order has been canceled";
+}
+
+// Menu for a user who enters "5" from the second menu above
+// Will be brought to this sixth menu screen
+else if ($text == "1*2*5") {
+    $response = "CON You want to transport Cocoa from Banda to Tema for Gh¢185 per bag.\n";
+    $response .= "Confirm your order. \n";
+    $response .= "1. Yes \n";
+    $response .= "0. To Cancel \n";
+}
+
+// Menu for a user who selects "1" from the seventh menu screen
+
+else if ($text == "1*2*5*1") {
+    $response = "END Truck order successful. You will receive a call from our representative in no time.";
+}else if ($text == "1*2*5*0") {
+    $response = "END Your Truck order has been canceled";
+}
+
+// Menu for a user who enters "6" from the second menu above
+// Will be brought to this sixth menu screen
+else if ($text == "1*2*6") {
+    $response = "CON You want to transport Cocoa from Japekrom to Tema for Gh¢175 per bag.\n";
+    $response .= "Confirm your order. \n";
+    $response .= "1. Yes \n";
+    $response .= "0. To Cancel \n";
+}
+
+// Menu for a user who selects "1" from the seventh menu screen
+
+else if ($text == "1*2*6*1") {
+    $response = "END Truck order successful. You will receive a call from our representative in no time.";
+}else if ($text == "1*2*6*0") {
+    $response = "END Your Truck order has been canceled";
+}
+
+
 //echo response
 header('Content-type: text/plain');
 echo $response

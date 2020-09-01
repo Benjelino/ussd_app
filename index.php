@@ -623,8 +623,8 @@ else if ($text == "2") {
 }
 else if($text == "3"){
     $response = "END Contact us through; \n";
-    $response = "END Tel. No.  0249551119 \n";
-    $response = "END Website. www.kiteko.com \n";
+    $response = "Tel. No.:  0249551119 \n";
+    $response = "Website: www.kiteko.com \n";
 }
 
 //echo response

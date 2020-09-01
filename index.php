@@ -8,9 +8,9 @@ $text = $_POST["text"];
 //This is the first menu screen
 if ( $text == "" ) {
     $response  = "CON Hi welcome to Kiteko Ghana, choose an option to continue \n";
-    $response .= "1. Request for a truck";
-    $response .= "2. Register";
-    $response .= "3. Contact Us";
+    $response .= "1. Request for a truck \n";
+    $response .= "2. Register \n";
+    $response .= "3. Contact Us \n";
     
 }
     // Menu for a user who selects '1' from the first menu

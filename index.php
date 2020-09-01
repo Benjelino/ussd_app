@@ -618,6 +618,15 @@ else if ($text == "1*7*2*1") {
 }
 
 
+else if ($text == "2") {
+    $response = "END You have Succesfilly Registered\n";
+}
+else if($text == "3"){
+    $response = "END Contact us through; \n";
+    $response = "END Tel. No.  0249551119 \n";
+    $response = "END Website. www.kiteko.com \n";
+}
+
 //echo response
 header('Content-type: text/plain');
 echo $response

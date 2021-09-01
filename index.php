@@ -7,23 +7,17 @@ $text = $_POST["text"];
 
 //This is the first menu screen
 if ( $text == "" ) {
-    $response  = "CON Hi welcome to Kiteko Ghana, choose an option to continue \n";
-    $response .= "1. Request for a truck \n";
-    $response .= "2. Register \n";
+    $response  = "CON Hi welcome to Crop Doctor Feedback App, choose an option to continue \n";
+    $response .= "1. Give your feedback \n";
+    $response .= "2. Order Product \n";
     $response .= "3. Contact Us \n";
     
 }
     // Menu for a user who selects '1' from the first menu
     // Will be brought to this second menu screen
 else if ($text == "1") {
-    $response  = "CON  Choose a the commodity you'ld like to move \n";
-    $response .= "1. Cocoa \n";
-    $response .= "2. Cashew \n";
-    $response .= "3. Rice \n";
-    $response .= "4. Tiles \n";
-    $response .= "5. Fertilizer \n";
-    $response .= "6. Cement \n";
-    $response .= "7. Petroleum \n";
+    $response  = "CON  Please On the scale of 1 - 5, How likely are you to recomend our product to others \n";
+    
 }
     //Menu for a user who selects '1' from the second menu above
     // Will be brought to this third menu screen
